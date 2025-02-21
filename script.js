@@ -24,13 +24,13 @@ document.querySelectorAll('nav ul li a').forEach(link => {
 
 // Initialize EmailJS (replace with your actual keys)
 (function () {
-  emailjs.init("YOUR_EMAILJS_USER_ID");
+  emailjs.init("dM5-PSOEvzQ-q687J");
 })();
 
 // Handle Contact Form Submission
 document.getElementById('contact-form').addEventListener('submit', function (event) {
   event.preventDefault();
-  emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+  emailjs.sendForm('service_nb6mt3q', 'template_tlbp7ex', this)
     .then(() => {
       alert('Message sent successfully!');
       this.reset();
