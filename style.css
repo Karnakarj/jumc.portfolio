@@ -45,8 +45,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 5px;
-  height: 5px;
+  width: 1px;
+  height: 1px;
   background-color: var(--primary-color);
   border: 2px solid var(--secondary-color);
   border-radius: 5px;
